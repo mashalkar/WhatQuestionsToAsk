@@ -1,1 +1,48 @@
 GIT/GITHUB Interview topics and questions
+
+Questions:
+
+Part A: Introductory Questions:
+What is GIT? (history)
+What is GITHUB? What is difference between GIT and GIThub?
+What is SVN?
+What is distributed SVN?
+What is diference between GIT and SVN? List other VCS systems/websites for hosting repositoreies.
+What are benefits of using Version Control System?
+What labguage does GIT uses? Why C language is used?
+
+Part B:
+What is repository in GIT? What is bare repository? How to create/initialze/clone repository in GIT?
+Can you List few git commands and its functions?
+What is commit in git? what is commit message?
+What is .git directory?
+What is index or stagging area in GIT?
+What is git push and pull commands?
+What is difference between git pull and fetch?
+What is git clone?
+What is git branching, fork and clone?
+What is head in git?
+What is git status and diff?
+What is git checkout?
+What is git rm? git log?
+What is git reset, ls-tree, 
+What is git merge?
+What is git rebase?
+What is git reset --mixed? 
+What is git merge --abort?
+What is broken commit? and how to fix it?
+What is merge conflict in git? when the conflict can happen at what stage? How to resolve it?
+How to delete a branch it git?
+What is git revert?
+What is git stash? and stash drop?
+How to list files that has been changed in particular commit?
+What is git remote?
+What is git resetting and reverting?
+How to check the merges?
+What is git cherry-pick
+What are hooks in git?
+
+Part C: Practical/situational questions:
+Why is it advisable to create an additional commit rather than amending an existing commit?
+What happens if .git directory gets deleted?
+
