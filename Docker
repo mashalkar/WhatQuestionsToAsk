@@ -29,7 +29,8 @@ What is Docker Trusted Registry?
 What’s the difference between a repository and a registry?
 What is the default CPU limit set for a container?
 How does Docker run containers in non-Linux systems?
-
+What is the purpose of Docker_Host?
+ 
 
 
 # Intermediate working and configurations:
@@ -66,7 +67,7 @@ What is the difference between “expose” and “publish” in Docker?
 When you limit the memory for a container, does it reserve (guarantee) the memory?
 What is an orphant volume and how to remove it?
 Difference between Docker and LXC ?
-
+What is the difference between CMD and RUN in Dockerfile?
 
 
 # Advanced: Practocal/tricky/scenario based Questions:
