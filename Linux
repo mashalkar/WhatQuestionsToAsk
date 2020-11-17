@@ -51,3 +51,12 @@ Dict=[c:10]
 49)	How will you give access of your script to a particular user?
 50)	How to access background running scripts and their pid?
 51)	How to run our script in foreground?
+
+
+Advance questions:
+
+You found there is a server with high CPU load but you didn't find a process with high CPU. How is that possible?
+What are the differences between the following system calls?: exec(), fork(), vfork() and clone()?
+Explain Process Descriptor and Task Structure
+Explain Kernel Threads
+What happens when socket system call is used? -> https://ops.tips/blog/how-linux-creates-sockets/
