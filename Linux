@@ -1,1 +1,53 @@
 Linux Interview topics and related questions
+
+
+# Bash/Shell:
+26)	How can I print shell script name?
+
+Echo $0
+
+27)	How to write a script when the first command is executed then execute the below script?
+
+A)     Java   --version
+  If [ $? –eq  0 ]
+   Then
+      Echo “print the variable ”
+    Else
+      Echo “prin the variable”
+  fi
+28)	How to print the exact file name by using command ?
+
+A)	First assign path as a variable 
+
+awk -F '/' '{print $(NF-1)}' <<< "$a"
+
+29)	Can you tell me the syntax for for loop and while loop?
+30)	How to dictionary in python?
+
+A)	Dict={a:10,b:10}
+
+
+31)	How to add another variable c, with key 10 to the above dictionary ?
+32)	How to replace existing dictionary?
+
+Dict=[c:10]
+
+33)	How to print shell name?
+34)	How to assign a all the arguments to a single variable?
+35)	How to print the current processid of current shell?
+36)	How to know the file that is entering randomly to my script?
+37)	How to divide two variables in shell script?
+38)	What is trap?
+39)	What is shift in shell script?
+40)	How to run our script in background?
+41)	How to know the running back ground process id ?
+42)	What is $*, $$ and $@?
+43)	How to print only directories?
+44)	How to print the directory only started with number?
+45)	How to grep two strings at a time?
+46)	How to grep a string that is started with some string and ends with some string like a…..b ?
+47)	How to print string that starts with a?
+48)	Did you worked on arrays?
+49)	How will you give access of your script to a particular user?
+50)	How to access background running scripts and their pid?
+51)	How to run our script in foreground?
