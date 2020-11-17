@@ -41,8 +41,17 @@ What is git resetting and reverting?
 How to check the merges?
 What is git cherry-pick
 What are hooks in git?
+What is git instaweb?
+What is subgit?
+What does a Commit object contain?
+What is git config?
 
 Part C: Practical/situational questions:
 Why is it advisable to create an additional commit rather than amending an existing commit?
 What happens if .git directory gets deleted?
+Is there a way to revert a git commit that’s already been pushed and made public?
+How will you remove a file from Git without actually removing it from your local filesystem?
+Explain the advantages of Forking Workflow
 
+References:
+https://www.codementor.io/@alexershov/11-painful-git-interview-questions-and-answers-you-will-cry-on-lybbrqhvs
