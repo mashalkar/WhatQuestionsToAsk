@@ -1,1 +1,140 @@
 Docker interview topics and questions
+https://www.educba.com/docker-interview-questions/
+
+
+# Basics Concepts and architecture:
+What is Docker?
+What is container?
+What is docker container?
+What is Virtualization?
+What is hypervisor?
+Is container's technology a new technology ?
+What is containerisation?
+What are docker images?
+What is docker hub?
+Explain docker architecture
+What is difference between containers and virtual machine?
+
+What is Dockerfile?
+What is Docker compose?
+Waht is Docker swarm?
+
+What are microservices?
+What is monolithic architecture?
+
+Why should be use container instead of VM?
+What is docker cloud?
+Differnce between image and container
+What is Docker Trusted Registry?
+What’s the difference between a repository and a registry?
+What is the default CPU limit set for a container?
+How does Docker run containers in non-Linux systems?
+
+
+
+# Intermediate working and configurations:
+Is it possible to run multiple VMs inside single container?
+What is namespace?
+What is cgroups?
+What is seccomp-bpf 
+Explain lifescycle of a container
+List 5/10 important docker commands
+How to list the running and stopped containers?
+What happens to your data when you containers are stopped?
+What are the types of Docker networks?
+How do you define network in the Docker compose file?
+Differnce between Copy and Add
+How is Dockerfile different from Docker Compose?
+How to create Docker container?
+Describe how many ways are available to configure Docker daemon?
+What is container network model(CNM)?
+What is Docker interlock?
+What is overlay networking?
+Docker community vs Docker enterprise edition?
+How to declare default environment variables under Docker Compose?
+What is the role of .dockerignore file?
+What is the purpose of EXPOSE command in Dockerfile?
+How is ENTRYPOINT instruction under Dockerfile different from RUN instruction?
+Why Docker Monitoring is necessary?
+Explain the concept of HA under Swarm Mode?
+Can you explain what is Routing Mesh under Docker Swarm Mode?
+Is Routing Mesh a Load Balancer?
+Is it possible to run MacVLAN under Docker Swarm Mode? What features does it offer?
+What are Docker secrets and why is it necessary
+What are docker stats and docker events? how to monitor docker in production?
+What is the difference between “expose” and “publish” in Docker?
+When you limit the memory for a container, does it reserve (guarantee) the memory?
+What is an orphant volume and how to remove it?
+Difference between Docker and LXC ?
+
+
+
+# Advanced: Practocal/tricky/scenario based Questions:
+How to communicate between 2 containers present in separate network?
+How to store the data present in the Docker container in the AWS?
+If we define the Docker volume in the docker compose file is it possible to share data with the EFS, NFS?
+How to write a docker file to deploy a war file
+     i. We have private repository and don’t have base images .how can deploy a war file?
+    ii. Write a simple docker file to deploy a war file by using base images?
+What is the difference between Docker Swarm ,Compose and Kubernetes ?
+How can you transfer the data from one container to another ?
+How do you monitor your containerized applications?
+Can I use JSON instead of YAML for my Docker Compose file?
+What is maximum number of container you can run per host??
+Is it possible to have my own private Docker registry?
+Does Docker container package up the entire OS?
+What are different types of Docker Networking drivers?
+How Docker bridge is different from libvirt bridge?
+How to create/delete a user-defined Bridge network ?
+How to connect Docker container to user-defined bridge network?
+Does Docker support IPv6?
+How is overlay network different from bridge network?
+How shall you disable the networking stack on a container?
+How can one create MacVLAN network for Docker container?
+What is --memory-swap flag?
+Can you explain different volume mount types available in Docker?
+How to Backup, Restore, or Migrate data volumes under Docker container?
+Explain logging in Docker
+How to configure the default logging driver under Docker?
+Why do my services take 10 seconds to recreate or stop?
+How do I run multiple copies of a Compose file on the same host?
+What’s the difference between up, run, and start under Docker Compose?
+Can you list out ways to share Compose configurations between files and projects under Docker Compose?
+Why Build cache in Docker is so important?
+What is 'docker stack deploy' command meant for?
+How far do Docker containers scale? Are there any requirements for the same?
+Can you remove a paused container from Docker?
+Can a container restart by itself?
+Is it better to directly remove the container using the rm command or stop the container followed by remove container?
+Is it a good practice to run stateful applications on Docker? or What type of applications - Stateless or Stateful are more suitable for Docker Container?
+Suppose you have an application that has many dependant services. Will docker compose wait for the current container to be ready to move to the running of the next service?
+How to build envrionment-agnostic systems with Docker?
+When would you use ‘docker kill’ or ‘docker rm -f’?
+Can you create containers without their own PID namespace
+Should I use Vagrant or Docker for creating an isolated environment?
+
+How have you used Docker in your previous position?
+Is it possible to generate a Dockerfile from an image?
+
+How can you connect from the inside of your container to the localhost of your host, where the container runs?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Refrences:
+https://github.com/collabnix/dockerlabs/blob/master/docker/docker-interview-questions.md#what-is-the-role-of-dockerignore-file
+https://gist.github.com/bansalankit92/1b2a310a3e4686e5e31159dfbdcc1593
+https://www.educba.com/docker-interview-questions/
+Difference between Docker and LXC ?
