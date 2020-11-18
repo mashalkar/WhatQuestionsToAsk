@@ -1,4 +1,46 @@
 Ansible Interview Topics and Questions
 
+What is Ansible?
+What is config management?
+Describe each of the following components in Ansible, including the relationship between them:
+    Task
+    Module
+    Play
+    Playbook
+    Role
+    
+ How Ansible is different from other Automation tools?
+ What is an inventory file and how do you define one?
+ What is a dynamic inventory file? When you would use one?
+ How do you list all modules and how can you see details on a specific module?
+ What the "become" directive used for in Ansible?
+ What are facts? How to see all the facts of a certain host?
+ What 'blocks' are used for in Ansible?
+ 
+ 
+ 
+# Intermedate Questions
+Write a task to create the directory ‘/tmp/new_directory’
+ Explain the directory layout of an Ansible role
+ How do you handle errors in Ansible?
+ 
+ 
+ 
+ 
+# Practicle/tricky/Difficult/schenario based questions:
+What kind of automation you wouldn't do with Ansible and why?
+You want to run Ansible playbook only on specific minor version of your OS, how would you achieve that?
+What would be the result of the following play?
+Which Ansible best practices are you familiar with?. Name at least three
+ Write a single task that verifies all the files in files_list variable exist on the host
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
 
 https://github.com/hadisinaee/devops-interview-questions#ansible
