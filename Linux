@@ -1,5 +1,25 @@
 Linux Interview topics and related questions
 
+Basic Linux Questiosn - Introduction, History, Boot,  
+Filesystems - lvm, ext, xfs, mount, nfs, 
+Storage - iscsi, fc, partitoning, 
+Virtualization - 
+Security - Permission, stickybit, SELinux, ACL's, PoolKit, Firewalld, IPTables, 
+Networking - 
+Shell - 
+Kernel - Process, Memory, File management.
+User Management - 
+Tools - sed, awk, grep, find, locate, tar, gzip, 
+Troubleshooting - Logs, networking/performance tools, 
+
+Web servers - Httpd, Ngnix.
+Other servers - DHCP, DNS, HAProxy,
+
+
+
+
+
+
 
 # Bash/Shell:
 26)	How can I print shell script name?
