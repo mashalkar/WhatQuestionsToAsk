@@ -18,6 +18,108 @@ Other servers - DHCP, DNS, HAProxy,
 
 
 
+https://github.com/chassing/linux-sysadmin-interview-questions#expert
+https://www.golinuxhub.com/2018/06/scenario-based-interview-question-beginner-experience-linux/
+https://www.whizlabs.com/blog/top-linux-interview-questions-answers/
+https://www.toptal.com/linux/interview-questions
+https://www.ibm.com/developerworks/aix/library/au-badunixhabits.html
+https://www.tecmint.com/manage-linux-filenames-with-special-characters/
+https://www.tecmint.com/tag/linux-tricks/
+https://www.softwaretestinghelp.com/shell-scripting-interview-questions/
+
+
+
+
+I just ran 'chmod -x /bin/chmod'. What did I do? How do I recover?
+
+Describe TCP's handshake process.
+
+How does traceroute work?
+
+When might you need to use CTRL-Z or CTRL-D?
+
+What does the sticky bit do?
+
+What kernel options might you need to tune?
+
+How do you tell what distribution you're running?
+
+How do you tell what hardware you're running on?
+
+What is the difference between a SAN, a NAS and local disk?
+
+I have 30 servers and I'm not sure if each has the same apache config. How do I find out how many copies there are and what the differences are?
+
+What's a chroot jail?
+
+How do you tell if you've been hacked?
+
+Name all the two letter unix commands you can think of and what they do? How you could look up all the two letter unix commands on your system.
+
+I also ask folks pre-onsite to do some simple homework. Especially if they profess some experience writing scripts. I ask them to parse two different data files (one csv, one |sv) and effectively do a join of the data. I put in a few gotchas (poorly formatted data), missing fields needed for joins, strangely out of sequence data, etc.. I ask them to send me the source code and output. (Machine Problem style) I usually give a 3-4 hour time window to tackle it. This task has helped filter out lots of candidates who list 'scripting' as a skill, but can't pull off basics when pressured.
+What's happening when the Linux kernel is starting the OOM killer, how does it choose which process to kill first.
+>> the kernel maintains various statistics related to virtual memory allocation and paging activity. When certain thresholds are exceeded then the OOM killer is invoked to select processes for termination.
+
+
+If you were stuck on a desert island with only 5 command-line utilities, which would you choose?
+
+~~~
+A user/colleague comes to you to complain that a zero-length file named "-fr" has appeared in the root directory of some system.
+
+What is the easiest, safest and most portable way to remove that directory entry, and why is the question worth asking?
+
+People get half credit for saying things like: rm -- -fr or perl -le 'unlink("-fr");' (They're effective but not optimally portable).
+
+People who go on about shell command line quoting and character escaping are almost as dangerous as those who simply don't even recognize why a file name like that poses any problem at all.
+
+Those who chuckle ... say anything about using "dot slash" and point out that this is one of the oldest entries in the UNIX shell FAQs from USENIX get extra credit.
+~~~
+My answer is, anyway: "delete by inode number". find . -inum <number> -exec rm -i {} \;
+
+
+What is full form of DD command?
+
+
+
+
+What are some of the benefits of using systemd over SysV init? Drawbacks? Debian just moved to systemd as opposed to Upstart. What was the reasoning behind that?
+
+    One of the things this shows is interest and investment in the Linux community and how this impacts a sysadmin's everyday work. It shows that this person is informed about how the field is evolving and is (potentially) willing to change with it.
+
+If I wanted to install Apache on a remote server, what's the best way to do that? What if I wanted to do the same thing on 100 servers? What if half of them are RHEL and half are Debian? 
+What considerations come into play when designing a highly available application, both at the architecture level and the application level? 
+What are some differences between a microkernel and a monolithic kernel? What is advantageous about Linux being a monolithic kernel? 
+If I type "www.google.com" into by browser and hit enter, what's everything that happens from the time my key bottoms out to the time the page renders in my browser? 
+
+1) How do you stop a fork bomb if you are already logged into a system
+
+2) You delete a log file that apache is using and did not restart apache yet, how can you recover that log file?
+
+What does :(){ :|:& };: do on your system and why you would care about that?
+
+
+
+
+
+
+
+
+    How look shared library dependencies?
+    How trace system call and signal?
+    How profile app?
+    How print the strings of printable characters in files?
+    What fields are stored in an inode?
+    What is nscd?
+    What is Automake and Autoconf?
+    What steps to add a user to a system without using useradd/adduser?
+    How see look information about ELF files?
+    What is MAJOR and MINOR numbers of special files?
+    How link layer filtering?
+
+
+
+
+
 
 
 
